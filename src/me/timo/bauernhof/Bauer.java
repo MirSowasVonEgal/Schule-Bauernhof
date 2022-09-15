@@ -42,6 +42,14 @@ public class Bauer {
         return hof.getGröße();
     }
 
+    public void setHofAdresse(String adresse) {
+        hof.setAdresse(adresse);
+    }
+
+    public String getHofAdresse() {
+        return hof.getAdresse();
+    }
+
     // Konstruktor
     public Bauer() {
 
@@ -82,6 +90,5 @@ public class Bauer {
 
     public void feldKaufen() {
         setHofGröße(getHofGröße() + 100);
-        getHof().setGröße(getHof().getGröße() + 100);
     }
 }

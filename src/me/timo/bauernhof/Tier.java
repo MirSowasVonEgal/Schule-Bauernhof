@@ -61,10 +61,11 @@ public class Tier {
     }
 
     public void begrüßen() {
-
+        System.out.println(name + ": Hallo!");
     }
 
-    public void essen() {
+    public void essen()
+    {
         this.satt = true;
     }
 

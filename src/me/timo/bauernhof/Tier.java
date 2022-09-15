@@ -58,6 +58,7 @@ public class Tier {
         this.satt = satt;
         this.ton = ton;
         this.bauer = bauer;
+        this.bauer.getTierliste().add(this);
     }
 
     public void begrüßen() {

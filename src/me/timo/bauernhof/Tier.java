@@ -62,7 +62,7 @@ public class Tier {
     }
 
     public void begrüßen() {
-        System.out.println(name + ": Hallo!");
+        System.out.println(name + ": " + ton);
     }
 
     public void essen()

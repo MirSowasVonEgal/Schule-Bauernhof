@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         ArrayList<Tier> tierliste = new ArrayList<>();
-        tierliste.add(new Tier( "Schaf", false, ""));
+        tierliste.add(new Tier( "Schaf", false, "Mäh"));
         Hof hof = new Hof("Wiesenstraße 1", 50);
         Bauer bauer = new Bauer("Hans", tierliste, hof);
         System.out.println("Der Hof hat " + bauer.getHofGröße() + " Quadratmeter");
